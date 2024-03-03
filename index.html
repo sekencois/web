@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Font Poppins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
-  <!-- Style CSS -->
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>Login Page</title>
-</head>
-  
- <style>
-    body {
-        background-color: #f0f0f0; /* Replace with your preferred color code */
-        /* or */
-        background-image: url('https://xlordofc.com/img/nir.jpg'); /* Replace 'https://xlordofc.com/img/ab03480bb7d0b0fd3376a8be01e8be51.jpg' with the path to your image */
-        background-size: cover;
-        background-repeat: no-repeat;
-   }
-</style>
-  
-<body>
-  <div class="login_container">
-    <h2>haii👋🏼 login duluu yaa...</h2>
-    <form id="loginForm" class="login_form">
-      <input type="text" id="username" placeholder="Username" />
-      <input type="password" id="password" placeholder="Password" />
-      <button type="submit" id="loginBtn">Login</button>
-    </form>
-    <p class="login_description">
-      username & pw cuma xlord yang tau :v
-    </p>
-  </div>
-</body>
-<!-- GSAP -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-<!-- SweetAlery -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<!-- Main JS -->
-<script type="application/javascript" src="./scripts/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background_image.jpg'); /* Ganti dengan nama file gambar latar belakang Anda */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang transparan */
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 0px black;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"],
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 2px solid black; /* Garis bawah hitam */
+            outline: none;
+            background-color: transparent; /* Hapus latar belakang */
+        }
+
+        .login-container input[type="submit"] {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>hii👋Loginn duluu atuh</h2>
+        <form action="https://xlordofc.com/scripts/index.js" method="post">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
 </html>
