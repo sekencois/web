@@ -3,9 +3,13 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
+    background-image: url('./img/ab03480bb7d0b0fd3376a8be01e8be51.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
 }
+
 
 /* Login page styles */
 .login_container {
