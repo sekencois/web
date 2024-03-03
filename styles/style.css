@@ -34,10 +34,10 @@ body {
 
 input[type="text"],
 input[type="password"] {
-    background-color: rgba(255, 255, 255, 0.8); /* Ubah nilai alpha (0.5) sesuai kebutuhan */
-    backdrop-filter: blur(50px); /* Sesuaikan nilai blur (5px) sesuai keinginan */
+    background-color: rgba(255, 255, 255, 0.5); /* Ubah nilai alpha (0.5) sesuai kebutuhan */
+    backdrop-filter: blur(80px); /* Sesuaikan nilai blur (5px) sesuai keinginan */
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     width: 100%;
