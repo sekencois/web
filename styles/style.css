@@ -8,13 +8,15 @@ body {
 }
 
 /* Login page styles */
-..login_container {
+..login_form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
   background-image: url('./img/ab03480bb7d0b0fd3376a8be01e8be51.jpg'); /* Ganti 'nama_gambar.jpg' dengan nama berkas gambar Anda */
   background-size: cover;
   background-position: center;
