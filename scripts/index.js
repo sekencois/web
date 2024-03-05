@@ -13,7 +13,7 @@ function validateForm() {
   if (username === "nila" && password === "canti"){
     
     Swal.fire({
-      icon: "sukses",
+      icon: "success",
       title: "Login berhasil!",
       text: "Selamat datang, semoga suka",
       showConfirmButton: false,
