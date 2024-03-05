@@ -16,7 +16,7 @@ body, html {
 
 .snow {
     position: absolute;
-    background: url('snowflake.png') repeat;
+    background: url('./img/snow [08DDE04].png') repeat;
     width: 10px;
     height: 10px;
     animation: falling 10s linear infinite;
