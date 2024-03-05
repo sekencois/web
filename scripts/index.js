@@ -14,9 +14,9 @@ function validateForm() {
   (username === "admin" && password === "27"){
     
     Swal.fire({
-      icon: "success",
+      icon: "sukses",
       title: "Login berhasil!",
-      text: "Selamat datang cantiii",
+      text: "Selamat datang, semoga suka",
       showConfirmButton: false,
       timer: 1500,
     }).then(function () {
@@ -26,7 +26,7 @@ function validateForm() {
     Swal.fire({
       icon: "error",
       title: "Login gagal!",
-      text: "Coba cek lagi username sama passwordnya ya:)",
+      text: "pastikan pw dan username benar ya..",
       confirmButtonText: "Coba lagi",
       confirmButtonColor: "#ff7675",
     });
